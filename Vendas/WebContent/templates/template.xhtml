@@ -1,0 +1,104 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<ui:insert name="metadata" />
+
+<h:head>
+
+	<h:outputStylesheet library="css" name="style.css" />
+	<h:outputScript library="js" name="scripts.js" />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Layout Sistema</title>
+</h:head>
+<h:body>
+
+	<p:growl id="msgGlobal" />
+
+	<p:layout fullPage="true">
+
+		<p:layoutUnit position="west" header="Sistema de Vendas"
+			resizable="false" closable="false" collapsible="false">
+
+			<ui:insert name="header">
+				<ui:include src="/templates/menu.xhtml" />
+			</ui:insert>
+
+		</p:layoutUnit>
+		<!-- LAYOUTUNIT HEADER - MENU -->
+
+
+		<p:layoutUnit position="center" resizable="false" closable="false"
+			collapsible="false">
+
+			<ui:insert name="conteudo" />
+
+		</p:layoutUnit>
+		<!-- LAYOUTUNIT CENTER - CONTEUDO -->
+
+		<p:layoutUnit position="south"
+			header="Sistema desenvolvido por Hugo Vasconcelos" resizable="false"
+			closable="false" collapsible="false" /><!-- LAYOUTUNIT SOUTH - FOOTER -->
+
+	</p:layout>
+
+</h:body>
+=======
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<ui:insert name="metadata" />
+
+<h:head>
+
+	<h:outputStylesheet library="css" name="style.css" />
+	<h:outputScript library="js" name="scripts.js" />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Layout Sistema</title>
+</h:head>
+<h:body>
+
+	<p:growl id="msgGlobal" />
+
+	<p:layout fullPage="true">
+
+		<p:layoutUnit position="west" header="Sistema de Vendas"
+			resizable="false" closable="false" collapsible="false">
+
+			<ui:insert name="header">
+				<ui:include src="/templates/menu.xhtml" />
+			</ui:insert>
+
+		</p:layoutUnit>
+		<!-- LAYOUTUNIT HEADER - MENU -->
+
+
+		<p:layoutUnit position="center" resizable="false" closable="false"
+			collapsible="false">
+
+			<ui:insert name="conteudo" />
+
+		</p:layoutUnit>
+		<!-- LAYOUTUNIT CENTER - CONTEUDO -->
+
+		<p:layoutUnit position="south"
+			header="Sistema desenvolvido por Hugo Vasconcelos" resizable="false"
+			closable="false" collapsible="false" /><!-- LAYOUTUNIT SOUTH - FOOTER -->
+
+	</p:layout>
+
+</h:body>
+>>>>>>> branch 'master' of https://github.com/nathaniel78/vendas
+</html>
